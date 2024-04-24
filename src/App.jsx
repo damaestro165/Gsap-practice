@@ -1,13 +1,15 @@
-
-
+import Hero from "./components/Hero"
+import Highlights from "./components/Highlights"
+import NavBar from "./components/NavBar"
 
 function App() {
   
-
   return (
-    <>
-    <div className=" font-serif">Hello</div>
-    </>
+    <main className="bg-black">
+      <NavBar/>
+      <Hero/>
+      <Highlights/>
+    </main>
   )
 }
 
